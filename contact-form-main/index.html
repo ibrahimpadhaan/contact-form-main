@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <link rel="stylesheet" href="styles.css">
+   <script src="script.js"></script>
+</head>
+<body>
+  <div class="input">
+    <h1>Contact Us</h1>
+    <div class="name">
+        <div class="firstname">
+            <label>First Name</label>
+            <input id="firstn" style="height:4vh"></input>
+        </div>
+        <div class="lastname">
+            <label>Last Name</label>
+            <input id="lastn" style="height:4vh"></input>
+        </div>
+    </div>
+        <div class="email">
+            <label>Email Address</label>
+            <input id="email" style="height:4vh"></input>
+        </div>
+        <div class="qtype">
+
+        </div>
+        <div class="message">
+            <label>Message</label>
+            <textarea id="messaget" style="height:10vh; margin-top:1%; resize:none"></textarea>
+        </div>
+        <div class="submit">
+            <input type="checkbox"></input>
+            <label>I consent to being contacted by the team</label>
+        </div>
+        <button onclick="submit()">Submit</button>
+    </div>
+  <div class="attribution" style="margin: auto; width: 35%;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Muhammad Ibrahim</a>.
+  </div>
+</body>
+</html>
